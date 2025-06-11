@@ -19,3 +19,12 @@ E então, um banco de dados.
 Irá ser perguntado se você quer executar npm install e npm run build, é recomendado que você escreva sim (yes).
 
 Logo após, você pode começar a desenvolver usando cd aula07 e composer run dev.
+
+Você precisará configurar o seu projeto:
+
+Se não fez, faça o primeiro passo.
+
+Abra o PowerShell na pasta da aplicação e utilize "composer install", depois "npm install" que vai criar os arquivos que são dependencias do java script e após isso, "npm run build".
+
+Vá no VS Code, copie o arquivo "env.example", copiar e colar na mesma pasta e renomear apenas para ".env".
+

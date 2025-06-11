@@ -28,3 +28,8 @@ Abra o PowerShell na pasta da aplicação e utilize "composer install", depois "
 
 Vá no VS Code, copie o arquivo "env.example", copiar e colar na mesma pasta e renomear apenas para ".env".
 
+No PowerShell, você precisará gerar uma chave única do projeto com "php artisan key:generate".
+
+Por último, utilize "php artisan migrate", após isso, digite "yes".
+
+E pronto, sua aplicação está pronta. Você pode começar com "composer run dev".
